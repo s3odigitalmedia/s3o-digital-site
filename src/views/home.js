@@ -11,8 +11,10 @@ const Home = (props) => {
   return (
     <div className="home-container10">
       <Helmet>
-        <title>Silver Dizzy Cheetah</title>
-        <meta property="og:title" content="Silver Dizzy Cheetah" />
+        <title>S3O Digital Media</title>
+        <meta name="description"
+    content="Stories that Connect 🤝 Strategies that Convert 🚀 — Brand Strategy, Performance Marketing, Content, and Growth."
+  />
       </Helmet>
       <Navigation></Navigation>
       <div className="home-container11">
