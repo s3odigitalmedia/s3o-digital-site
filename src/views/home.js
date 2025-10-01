@@ -11,10 +11,9 @@ const Home = (props) => {
   return (
     <div className="home-container10">
       <Helmet>
-        <title>S3O Digital Media</title>
+        <title>"S3O Digital Media"</title>
         <meta name="description"
-    content="Stories that Connect 🤝 Strategies that Convert 🚀 — Brand Strategy, Performance Marketing, Content, and Growth."
-  />
+    content="Stories that Connect 🤝 Strategies that Convert 🚀 — Brand Strategy, Performance Marketing, Content, and Growth."/>
       </Helmet>
       <Navigation></Navigation>
       <div className="home-container11">
