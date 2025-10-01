@@ -11,10 +11,10 @@ const WhyChooseUs = (props) => {
   return (
     <div className="why-choose-us-container10">
       <Helmet>
-        <title>Why-Choose-Us - Silver Dizzy Cheetah</title>
+        <title>Why-Choose-Us - S3O Digital Media</title>
         <meta
           property="og:title"
-          content="Why-Choose-Us - Silver Dizzy Cheetah"
+          content="Why-Choose-Us - S3O Digital Media"
         />
       </Helmet>
       <Navigation></Navigation>

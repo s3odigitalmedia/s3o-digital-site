@@ -11,10 +11,10 @@ const ContactCTA = (props) => {
   return (
     <div className="contact-cta-container10">
       <Helmet>
-        <title>Contact-CTA - Silver Dizzy Cheetah</title>
+        <title>Contact-CTA - S3O Digital Media</title>
         <meta
           property="og:title"
-          content="Contact-CTA - Silver Dizzy Cheetah"
+          content="Contact-CTA - S3O Digital Media"
         />
       </Helmet>
       <Navigation></Navigation>
