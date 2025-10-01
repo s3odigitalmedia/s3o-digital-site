@@ -11,11 +11,9 @@ const ContactCTA = (props) => {
   return (
     <div className="contact-cta-container10">
       <Helmet>
-        <title>Contact-CTA - S3O Digital Media</title>
-        <meta
-          property="og:title"
-          content="Contact-CTA - S3O Digital Media"
-        />
+        <title>Contact S3O Digital Media | Free SEO Audit & Strategy Call</title>
+        <meta name="description" content="Talk to our SEO and marketing experts today. Get a free website audit, strategy consultation, and growth roadmap tailored for your business." />
+        <meta name="keywords" content="free SEO audit, SEO consultation, contact SEO agency, SEO strategy call, website optimization services" />
       </Helmet>
       <Navigation></Navigation>
       <div className="contact-cta-container11">

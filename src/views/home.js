@@ -11,9 +11,11 @@ const Home = (props) => {
   return (
     <div className="home-container10">
       <Helmet>
-        <title>"S3O Digital Media"</title>
-        <meta name="description"
-    content="Stories that Connect 🤝 Strategies that Convert 🚀 — Brand Strategy, Performance Marketing, Content, and Growth."/>
+        <title>S3O Digital Media | #1 SEO Agency & Growth Marketing Partner</title>
+        <meta name="description" content="Boost your organic traffic, increase conversions, and dominate Google rankings with S3O Digital Media — your partner for SEO, content strategy, link building, and technical audits." />
+        <meta name="keywords" content="SEO agency, digital marketing company, SEO services India, SEO partner, enterprise SEO, Google ranking experts, content strategy, link building, technical SEO audits" />
+        <meta property="og:title" content="S3O Digital Media — SEO & Digital Growth Experts" />
+        <meta property="og:description" content="End-to-end SEO and growth marketing services designed to get you more traffic, leads, and revenue." />
       </Helmet>
       <Navigation></Navigation>
       <div className="home-container11">

@@ -11,11 +11,9 @@ const WhyChooseUs = (props) => {
   return (
     <div className="why-choose-us-container10">
       <Helmet>
-        <title>Why-Choose-Us - S3O Digital Media</title>
-        <meta
-          property="og:title"
-          content="Why-Choose-Us - S3O Digital Media"
-        />
+        <title>Why Choose S3O Digital Media | Trusted SEO Agency for Growth</title>
+        <meta name="description" content="Partner with S3O Digital Media to grow your brand online. We combine SEO, content marketing, analytics, and strategy to deliver measurable business outcomes." />
+        <meta name="keywords" content="trusted SEO agency, data-driven marketing, SEO strategy, content marketing experts, digital growth, SEO audit services" />
       </Helmet>
       <Navigation></Navigation>
       <div className="why-choose-us-container11">
