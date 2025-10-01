@@ -334,7 +334,7 @@ const ContactCTA = (props) => {
                   <p className="section-content">
                     {' '}
                     By submitting you agree to receive project-related messages
-                    from S3O Digital. We respect your privacy.
+                    from S3O Digital Media. We respect your privacy.
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
@@ -432,9 +432,9 @@ const ContactCTA = (props) => {
                       }}
                     />
                   </span>
-                  <a href="mailto:hello@s3odigital.com?subject=">
+                  <a href="mailto:support@s3odigital.com?subject=">
                     <div>
-                      <span>hello@s3odigital.com</span>
+                      <span>support@s3odigital.com</span>
                     </div>
                   </a>
                 </p>
@@ -647,11 +647,11 @@ const ContactCTA = (props) => {
                 </svg>
               </div>
               <h3 className="section-title">Email</h3>
-              <a href="mailto:hello@s3odigital.com?subject=">
+              <a href="mailto:support@s3odigital.com?subject=">
                 <div className="contact-link">
                   <span>
                     {' '}
-                    hello@s3odigital.com
+                    support@s3odigital.com
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',

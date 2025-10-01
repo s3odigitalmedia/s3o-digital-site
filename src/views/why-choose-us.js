@@ -306,7 +306,7 @@ body {
         <div className="hero-content1">
           <div className="hero-text1">
             <h1 className="hero-title">
-              Why top tech brands trust S3O Digital
+              Why top tech brands trust S3O Digital Media
             </h1>
             <p className="hero-subtitle">
               {' '}
@@ -791,7 +791,7 @@ body {
               </div>
               <p className="testimonial-text">
                 {' '}
-                S3O Digital translated our product&apos;s complexity into a
+                S3O Digital Media translated our product&apos;s complexity into a
                 sleek, scalable growth engine. The strategy felt futuristic but
                 utterly practical — metrics rose within weeks.
                 <span

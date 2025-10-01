@@ -203,7 +203,7 @@ body {
             <div className="hero-content">
               <div className="hero-text">
                 <div className="company-logo">
-                  <h2>S3O Digital</h2>
+                  <h2>S3O Digital Media</h2>
                   <p className="tagline">
                     {' '}
                     Stories that Connect 🤝 Strategies that Convert 🚀
@@ -627,10 +627,10 @@ body {
         <section className="about-section">
           <div className="about-container">
             <div className="about-story">
-              <h2 className="section-title">About S3O Digital</h2>
+              <h2 className="section-title">About S3O Digital Media</h2>
               <p className="about-text">
                 {' '}
-                We started S3O Digital because we believed there was a better
+                We started S3O Digital Media because we believed there was a better
                 way to approach digital marketing — one that puts human
                 psychology at the center of every strategy. Our team combines
                 years of experience in data science, creative storytelling, and
@@ -755,7 +755,7 @@ body {
                     </div>
                     <div>
                       <h3>Email Us</h3>
-                      <p>hello@s3odigital.com</p>
+                      <p>support@s3odigital.com</p>
                     </div>
                   </div>
                   <div className="contact-option">

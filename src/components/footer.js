@@ -132,7 +132,7 @@ width: 32px;}}@keyframes footerGridFloat {0% {transform: translate(0, 0);}
           <div className="footer-container">
             <div className="footer-brand">
               <div className="footer-logo">
-                <h3 className="footer-brand-name">S3O Digital</h3>
+                <h3 className="footer-brand-name">S3O Digital Media</h3>
                 <div className="footer-brand-accent"></div>
               </div>
               <p className="footer-brand-tagline">
@@ -227,11 +227,11 @@ width: 32px;}}@keyframes footerGridFloat {0% {transform: translate(0, 0);}
                       </g>
                     </svg>
                   </div>
-                  <a href="mailto:hello@s3odigital.com?subject=">
+                  <a href="mailto:support@s3odigital.com?subject=">
                     <div className="footer-contact-link">
                       <span>
                         {' '}
-                        hello@s3odigital.com
+                        support@s3odigital.com
                         <span
                           dangerouslySetInnerHTML={{
                             __html: ' ',
@@ -395,7 +395,7 @@ width: 32px;}}@keyframes footerGridFloat {0% {transform: translate(0, 0);}
               <div className="footer-legal">
                 <p className="footer-copyright">
                   {' '}
-                  &amp;copy; 2025 S3O Digital. All rights reserved.
+                  &amp;copy; 2025 S3O Digital Media. All rights reserved.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
