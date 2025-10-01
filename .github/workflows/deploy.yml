@@ -1,9 +1,9 @@
-name: pages build and deployment
+name: Deploy static site to Pages
 
 on:
   push:
-    branches: [ main ]
-  workflow_dispatch:
+    branches: [ main ]    # deploy whenever main changes
+  workflow_dispatch:      # allow manual runs
 
 permissions:
   contents: read
@@ -21,25 +21,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-
-      - name: Install deps (CI)
-        run: npm ci
-
-      - name: Build production
-        run: npm run build
-
-      # ✅ Ensure your custom domain survives each deploy
-      - name: Include CNAME in artifact
-        run: cp CNAME build/CNAME
-
-      - name: Upload Pages artifact
+      # If your Teleport export lives in /public, upload that folder.
+      # (If your index.html is at the repo root, change path: '.' )
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./build
+          path: ./public
 
   deploy:
     needs: build
