@@ -1,7 +1,33 @@
 .navigation-container1 {
   display: contents;
 }
- 
+
+.navigation-header {
+  position: sticky; /* or relative */
+  top: 0;
+  z-index: 1000;            /* stay above hero */
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  height: 72px;             /* define a real header height */
+  background: rgba(6, 12, 24, 0.85);  /* your deep navy */
+  backdrop-filter: blur(8px);
+}
+
+.navigation-logo { display: inline-flex; align-items: center; }
+
+.logo-img {
+  height: 28px;             /* adjust to taste: 24–36px works well */
+  width: auto;
+  display: block;
+}
+
+/* if your hero heading pushes under the header, add: */
+.hero { 
+  padding-top: 96px;        /* >= .navigation-header height + spacing */
+}
+
+
 .navigation-container2 {
   display: none;
 }

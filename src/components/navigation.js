@@ -98,6 +98,18 @@ transform: translateY(0);}}
     })
   })
 })()
+
+const Navigation = () => {
+  return (
+    <header className="navigation-header">
+      <a className="navigation-logo" href="/">
+        <img src="/S3O FINAL LOGO - Trans bg.png" alt="S3O Digital Media" className="logo-img" />
+      </a>
+      {/* …existing nav links… */}
+    </header>
+  )
+}
+
 </script>`}
           ></Script>
         </div>
